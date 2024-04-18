@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  border: 2px solid black;
+  border-radius: 0.5rem;
+  width: 15rem;
+  height: fit-content;
+}
+
+.title {
+  border-bottom: 1px solid black;
+  width: 100%;
+  padding: 0.3rem;
+}
+
+.resultado {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0.3rem 0 0.3rem;
+}
+
+.resultado input {
+  width: 95%;
+  padding: 0.5rem 0.3rem 0.5rem;
+  border: 2px solid black;
+}
+
+.corpo {
+  display: flex;
+  padding: 0.2rem;
+}
+
+.numberSide {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.number {
+  width: 30%;
+  padding: 1rem;
+  border-radius: 0.3rem;
+}
+
+.mathSide {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.math {
+  padding: 0.5rem 1.5rem;
+  font-size: large;
+  border: 1px solid black;
+}
+
+button:hover {
+  background: rgb(172, 172, 172);
+  transition: ease-in 0.2s;
+}
+
+button .active {
+  background: rgb(44, 44, 44);
+}
